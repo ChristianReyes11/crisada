@@ -1,0 +1,17 @@
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Proporción 16:9 para un video responsive */
+    overflow: hidden;
+    margin-bottom: 20px; /* Espacio entre los videos */
+}
+
+/* Estilo para el video */
+.video-wrapper video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    outline: none; /* Quita el borde azul al hacer clic */
+}
